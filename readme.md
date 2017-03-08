@@ -11,11 +11,12 @@ Status will be updated on first rc.
 ## Getting started
 
 1. Checkout this repository
-2. Run 'composer install'
-3. Set up your .env
-4. Clear laravel cache 'php artisan cache:clear' and 'php artisan config:cache'
-5. Run 'php artisan migrate' to migrate the database
-6. Congraz, u did it!
+2. Run `composer install`
+3. Create up your .env `cp .env.example .env` and update your settings
+4. Create your own application key `php artisan key:generate`
+5. Clear laravel cache `php artisan cache:clear` and `php artisan config:cache`
+6. Run `php artisan migrate` to migrate the database
+7. Congraz, u did it!
 
 ## Contributing
 
@@ -23,7 +24,7 @@ If you want to contribute to this project please let me know.
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within ereses, please write an issue on 'https://github.com/43r04/ereses'.
+If you discover a security vulnerability within ereses, please write an issue on [this github project](https://github.com/43r04/ereses).
 
 ## License
 
